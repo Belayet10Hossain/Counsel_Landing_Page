@@ -1,0 +1,361 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900|Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+/* Global CSS */
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #333333;	
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+	color: #333333;		
+}
+a{
+	color:#fde52c;
+}
+a:hover{
+	text-decoration: none;
+	color:#fde52c;
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+.no-padding{
+	padding: 0;
+}
+/* Header Section CSS Start */
+header{
+	background: url(../images/back-1.png) no-repeat center;
+	background-size: cover;
+	padding-top: 170px;
+	height: 657px;
+}
+.bg-light {
+    margin-top: -170px;
+    color: transparent;
+}
+.navbar{
+	background-color: transparent !important;
+}
+.navbar h2{
+	color: #fde428;
+	font-size: 40px;
+	font-weight: 600;
+}
+.navbar h6{
+	color: #ffffff;
+    margin-top: -15px;
+    font-size: 15px;
+}
+.navbar .navbar-nav  li a{
+	color: #ffffff !important;
+	transition: 0.4s ease-in-out;
+}
+.navbar .navbar-nav  li a:hover{
+	color: #fde428 !important;
+}
+/* About Section CSS Start */
+.about-section{
+	padding: 75px 0px;
+	position: relative;
+}
+
+.about-section::before{
+	content: "";
+	position: absolute;
+	background: #fde52c;
+	width: 270px;
+	height: 100%;
+	top: 0;
+	left: 805px;
+}
+.about h2{
+	font-size: 31px;
+    color: #002e5b;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 84%;
+    text-align: left;
+}
+.about h4{
+	font-size: 21px;
+    color: #666666;
+    padding: 10px 0px;
+}
+.about p{
+	width: 106%;	
+}
+button, select {
+    background: transparent;
+    border: none;
+    color: #002e5b;
+    font-size: 16px;
+    font-weight: 600;
+}
+.about .div{
+	border: 1px solid #002e5b;
+    width: 21%;
+    margin-top: -2px;
+}
+
+/* Constructing Section CSS Start */
+.Constructing-Section{
+	background: #f4f4f4;
+	padding: 75px 0px;
+}
+.Constructing-Section img{
+	width: 500px;
+	height: 477px;
+}
+.Constructing-Section h2{
+	font-size: 31px;
+    color: #002e5b;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 84%;
+    text-align: left;
+}
+.Constructing-Section h4{
+	font-size: 21px;
+    color: #666666;
+    padding: 10px 0px;
+}
+.Constructing-Section p{
+	width: 115%;
+}
+button, select {
+    background: transparent;
+    border: none;
+    color: #002e5b;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Constructing-Section .div{
+	border: 1px solid #002e5b;
+    width: 21%;
+    margin-top: -2px;
+}
+
+/* Contact Now Section CSS Start */
+.contact-now{
+	padding: 35px 0px;
+	background: #002e5b;
+}
+.contact-now p{
+	color: #ffffff;
+	margin-top: 10px;
+}
+.btn-warning {
+    color: #002e5b;
+    background-color: #fde428;
+    border-color: #fde428;
+    text-align: right;
+    font-weight: 600;
+    display: inline;
+    margin: 0px 0px 0px 392px;
+    transition: 0.4s ease-in-out;
+}
+.btn-warning:hover{
+	background: #f49f77;
+	border-color: #f49f77; 
+}
+.contact-now p {
+    width: 100%;
+}
+
+
+/* Services Section CSS Start */
+.services-section{
+	padding: 75px 0px;
+}
+.services-section h2{
+	font-size: 31px;
+    color: #002e5b;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+.services-section h4{
+	font-size: 21px;
+    color: #666666;
+    padding: 10px 0px;
+    text-align: center;
+    width: 56%;
+    margin: 0 auto;
+}
+.card-title {
+    color: #002e5b;
+    font-size: 21px;
+}
+img {
+    height: 232px;
+}
+.card-text:last-child {
+    width: 97%;
+}
+.card { 
+    border: none;
+}
+.nam{
+	margin-top: 40px;
+}    
+
+
+/* Counter Section CSS Start */
+.counter-section{
+	background: #002e5b;
+	padding: 120px 0px;
+}
+.counter-section h2{
+	color: #ffffff;
+	font-size: 48px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.counter-section p{
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+
+/* Consulting Section CSS Start */
+.consulting-section{
+	padding: 75px 0px;
+	position: relative;
+}
+
+.consulting-section::before{
+	content: "";
+	position: absolute;
+	background: #fde52c;
+	width: 270px;
+	height: 100%;
+	top: 0;
+	left: 260px;
+}
+.consulting h2{
+	font-size: 31px;
+    color: #002e5b;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 84%;
+    text-align: left;
+}
+.consulting h4{
+	font-size: 21px;
+    color: #666666;
+    padding: 10px 0px;
+}
+.consulting p{
+	width: 106%;	
+}
+button, select {
+    background: transparent;
+    border: none;
+    color: #002e5b;
+    font-size: 16px;
+    font-weight: 600;
+}
+.consulting .div{
+	border: 1px solid #002e5b;
+    width: 21%;
+    margin-top: -2px;
+}
+.vido{
+	margin-top: 10px;
+}
+
+
+/* Testimonial Section CSS Start */
+.testimonial-section{
+	padding: 125px 0px;
+	background: #062747;
+}
+.testimonial-section .fa{
+	color: #ffffff;
+	font-size: 35px;
+	display: block;
+	text-align: center;
+}
+.testimonial-section p{
+	color: #ffffff;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    width: 87%;
+    margin: 0 auto;
+}
+.testimonial-section h4{
+	color: #ffffff;
+	padding-top: 50px;
+	font-size: 35px;
+	text-align: center;
+	font-weight: 500;
+}
+
+
+/* contact with us sections CSS Start */
+.contact-with-us-sections{
+	padding: 100px 0px;
+}
+.contact-with-us-sections h2{
+	color: #062441;
+	font-size: 31px;
+	text-align: center;
+}
+.contact-with-us-sections h4{
+	font-size: 21px;
+    color: #666666;
+    padding: 10px 0px;
+    text-align: center;
+    width: 56%;
+    margin: 0 auto;
+}
+.card-title {
+    color: #002e5b;
+    font-size: 16px;
+    font-weight: 600;
+}
+.map-1{
+	margin-top: 50px;
+}
+.map-1 .fa{
+	color: #062442;
+}
+p {
+    color: #062442;
+    width: 70%;
+}
+
+
+/* Footer sections CSS Start */
+.footer-section{
+	padding: 32px 0px;
+	background: #062442;
+}
+.footer-section p{
+	color: #ffffff;
+	font-weight: 500;
+}
+.foter-social-menu{
+	text-align: right;
+}
+.foter-social-menu ul{
+	padding: 0;
+}
+.foter-social-menu ul li{
+	list-style-type: none;
+	display: inline;
+	color: #ffffff;
+	margin: 0px 7px;
+}
+.foter-social-menu .fa{
+	color: #ffffff;
+}
